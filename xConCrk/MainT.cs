@@ -48,7 +48,7 @@ namespace xConCrk
                         engineController.TriggerThreads(Convert.ToInt32(args[0]));
                         Controllers.Add(engineController);
                     }
-                    Logger.wlfromClass("Main", "all {0} Engines has been started", ConsoleColor.White, Controllers.Count);
+                    Logger.wlfromClass("Main", "All engines have been started, {0} engines in total", ConsoleColor.White, Controllers.Count);
 
                 }
                 catch (Exception ex)
